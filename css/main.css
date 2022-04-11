@@ -76,8 +76,9 @@ button {
     background: #fff;
     /* border-radius: 30px; */
 }
-@media (max-width: 425px) {
-    .ewalle-mobile{ 
-        height: 100%;
-    }
-    }
+    @media (max-width: 425px) {
+        .ewalle-mobile{ 
+            width: 100%;
+            height: 100%;
+        }
+     }

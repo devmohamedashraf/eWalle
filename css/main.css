@@ -1,0 +1,78 @@
+/* Start Variables */
+:root{
+    --White: #FFFFFF;
+    --Dark: #1B1D28;
+    --background: #FFFFFF;
+    --backgroundDark: #171822;
+
+    --bgBodyDark: #171822;
+
+    --bgLight: #F1F3F6;
+    --bgDark: #212330;
+    --colorLight: #3A4276;
+    --colorDark: #7B7F9E;
+
+}
+/* End Variables */
+/* Start Global Rules */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body 
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--colorLight);
+    background-color: rgb(226, 226, 226);
+    fill:  var(--SlateGrey);
+    overflow-x: hidden;
+}
+ol, ul{
+    padding-left: 0;
+    list-style: none;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+a {
+    text-decoration: none;
+    color: var(--SlateGrey);
+}
+a:hover{
+    color: var(--FacebookBlue);
+}
+button {
+    background: none;
+    border: none;
+}
+.whead {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+.whead span {
+    font-size: 17px;
+    color: var(--CatalinaBlue);
+    position: relative;
+}
+.whead button {
+    background: none;
+    border: none;
+}
+
+.ewalle-mobile {
+    width: 425px;
+    height: 765px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    background: #fff;
+    /* border-radius: 30px; */
+}
